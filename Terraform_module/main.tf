@@ -1,8 +1,9 @@
-
 provider "aws" {
-  region = "ap-south-1" 
-  
+  region = "ap-south-1"
+  access_key = "AKIATLQY4Y2UWZUKN45G"
+  secret_key = "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"
 }
+
 module "vpc" {
   source   = "./vpc"
   vpc_cidr = var.vpc_cidr
