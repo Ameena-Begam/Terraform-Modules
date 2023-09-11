@@ -16,7 +16,7 @@ variable "vpc_cidr" {
 variable "s3_bucket_name" {
   description = "Name of the S3 bucket"
   type        = string
-  default     = "my-testterra-bucket"
+  default     = "mytestterra10"
 }
 
 # RDS Module Variables
